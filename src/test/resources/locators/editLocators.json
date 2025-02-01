@@ -1,0 +1,14 @@
+{
+  "editButton": {
+    "type": "XPATH",
+    "value": "//div[contains(text(), 'Edit account')]"
+  },
+  "writeAccountBox": {
+    "type": "XPATH",
+    "value": "//input[@class='css-11aywtz r-6taxm2 r-1eh6qqt r-z2wwpe r-rs99b7 r-h3s6tt r-1qhn6m8' and @placeholder='' and @autocapitalize='sentences']"
+  },
+  "updateButton": {
+    "type": "XPATH",
+    "value": "//div[contains(text(), 'UPDATE')]"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "transferMoneyButton": {
+    "type": "XPATH",
+    "value": "//div[contains(text(), 'Transfer money')]"
+  },
+  "inputFieldForAmount": {
+    "type": "XPATH",
+    "value": "//div[contains(text(),'Amount')]/following-sibling::div//input"
+  },
+  "selectElementSender": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[3]/select"
+  },
+  "waitDiv": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]"
+  },
+  "waitModal": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div"
+  },
+  "optionName": {
+    "type": "XPATH",
+    "value": "//option[contains(text(), '123Mehmet')]"
+  },
+  "selectElementReceiver": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[7]/select"
+  },
+  "optionTestinium1": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[7]/select/option[1]"
+  },
+  "optionTestinium5": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[7]/select/option[2]"
+  },
+  "optionTestinium4": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[7]/select/option[3]"
+  },
+  "optionTestinium3": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[7]/select/option[4]"
+  },
+  "optionTestinium2": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[7]/select/option[5]"
+  },
+  "transferSendButton": {
+    "type": "XPATH",
+    "value": "//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-169ebfh r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu']/div[text()='Send']"
+  },
+  "clickXButton": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[1]/div[2]"
+  }
+}

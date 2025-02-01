@@ -1,0 +1,30 @@
+{
+  "openMoneyTransferBtn": {
+  "type": "XPATH",
+  "value": "//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div/div/div[2]"
+  },
+  "challengeName": {
+    "type": "XPATH",
+    "value": "//div[@class='css-146c3p1']"
+  },
+  "startTime": {
+    "type": "XPATH",
+    "value": "//div[@class='css-146c3p1'][2]"
+  },
+  "endTime": {
+    "type": "XPATH",
+    "value": "//div[@class='css-146c3p1'][3]"
+  },
+  "managerName": {
+    "type": "XPATH",
+    "value": "//div[@class='css-146c3p1'][4]"
+  },
+  "companyName": {
+    "type": "XPATH",
+    "value": "//div[@class='css-146c3p1'][5]"
+  },
+  "logout": {
+    "type": "XPATH",
+    "value": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[3]/div/div/div"
+  }
+}

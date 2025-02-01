@@ -1,0 +1,50 @@
+{
+  "addMoneyButton": {
+    "type": "XPATH",
+    "value": "/html/body//div[contains(text(), 'Add money')]"
+  },
+  "cardNumber": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[2]/input"
+  },
+  "cardHolder": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[4]/input"
+  },
+  "cardDate": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[6]/div[1]/div/input"
+  },
+  "cardCvv": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[6]/div[2]/div/input"
+  },
+  "cardAmount": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[8]/input"
+  },
+  "addButton": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[10]"
+  },
+  "cardNumberRequired": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[2]/div[2]"
+  },
+  "cardHolderRequired": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[4]/div[2]"
+  },
+  "expiredateRequired": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[6]/div[1]/div/div[2]"
+  },
+  "cvvRequired": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[6]/div[2]/div/div[2]"
+  },
+  "amountRequired": {
+    "type": "XPATH",
+    "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[8]/div[2]"
+  }
+}

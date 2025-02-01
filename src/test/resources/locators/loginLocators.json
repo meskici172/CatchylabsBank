@@ -1,0 +1,18 @@
+{
+  "loginUsernamePlaceHolder": {
+    "type": "XPATH",
+    "value": "//input[@placeholder='Username']"
+  },
+  "loginPasswordPlaceHolder": {
+    "type": "XPATH",
+    "value": "//input[@placeholder='Password']"
+  },
+  "submitButton": {
+    "type": "XPATH",
+    "value": "/html/body/div[1]/div/div[2]/div/div[1]/div/div/div[4]/div"
+  },
+  "checkBox": {
+    "type": "XPATH",
+    "value" : "//div[@class='css-175oi2r r-4a18lf r-z2wwpe r-rs99b7 r-1ifxtd0 r-knv0ih r-edyy15 r-13qz1uu']//div[@class='css-146c3p1 r-howw7u r-1b43r93' and text()='Username or Password Invalid!']"
+  }
+}

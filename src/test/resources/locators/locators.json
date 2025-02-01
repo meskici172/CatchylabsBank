@@ -1,0 +1,40 @@
+{
+  "backBtn": {
+    "type": "XPATH",
+    "value": "//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/div/div/div[2]"
+  },
+  "checkAccountName": {
+    "type": "XPATH",
+    "value": "//div[contains(text(), 'Account name')]/following-sibling::div"
+  },
+  "checkAccountType": {
+    "type": "XPATH",
+    "value": "//div[contains(text(), 'Account type')]/following-sibling::div"
+  },
+  "checkCreationTime": {
+    "type": "XPATH",
+    "value": "//div[contains(text(), 'Creation time')]/following-sibling::div"
+  },
+  "checkAmount": {
+    "type": "XPATH",
+    "value": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[3]/div[7]/div[2]/div"
+  },
+  "transactionSender": {
+  "type": "XPATH",
+  "value": "/html/body/div[1]/div/div[2]/div[2]/div[1]/div/div/div/div[6]/div/div[1]/div/div/div/div[1]/div[2]"
+  },
+  "transactionReceiver": {
+    "type": "XPATH",
+    "value": "/html/body/div[1]/div/div[2]/div[2]/div[1]/div/div/div/div[6]/div/div[1]/div/div/div/div[2]/div[2]"
+  },
+  "transactionTime": {
+    "type": "XPATH",
+    "value": "/html/body/div[1]/div/div[2]/div[2]/div[1]/div/div/div/div[6]/div/div[1]/div/div/div/div[3]/div[2]"
+  },
+  "transactionAmount": {
+    "type": "XPATH",
+    "value": "/html/body/div[1]/div/div[2]/div[2]/div[1]/div/div/div/div[6]/div/div[1]/div/div/div/div[4]/div[2]/div"
+  }
+
+}
+
