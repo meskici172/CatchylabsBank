@@ -16,7 +16,9 @@ import org.junit.runner.RunWith;
         },
         glue = {"stepDefinitions", "hooks"},      // Step Definition'ların bulunduğu paketler
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true
+        monochrome = true,
+        tags = "@AllEdit or @SuccsessLogin or @AllTransfer or @AllAddMoney or @FailedLogin"
+
 )
 @RunWith(Cucumber.class)
 public class AllTestRunner {

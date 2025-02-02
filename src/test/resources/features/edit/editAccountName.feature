@@ -1,5 +1,7 @@
+@AllEdit
 Feature: Edit Account Name
 
+  @TrueEdit
 Scenario: Update account name after successful login
   When Open Catchylabs For Login
   And Login Username "Meskici" For Login
@@ -11,6 +13,7 @@ Scenario: Update account name after successful login
   And Click Update Button
   Then Check Account Name of "Eskici" After The Update
 
+  @FalseEdit
   Scenario: Update Blancked account name after successful login
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -22,6 +25,7 @@ Scenario: Update account name after successful login
     And Click Update Button
     Then Check Account Name of "   " After The Update
 
+  @FalseEdit
   Scenario: Update With a Number account name after successful login
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -33,6 +37,7 @@ Scenario: Update account name after successful login
     And Click Update Button
     Then Check Account Name of "123" After The Update
 
+  @FalseEdit
   Scenario: Update With a Number and account name after successful login
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login

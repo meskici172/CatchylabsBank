@@ -1,5 +1,6 @@
 Feature: Success Login and Logout
 
+  @SuccsessLogin
 Scenario: Successful login and check status
   When Open Catchylabs For Login
   And Login Username "Meskici" For Login

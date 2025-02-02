@@ -1,4 +1,6 @@
+@AllTransfer
 Feature: Success Login and Transfer Money
+
   @TransferMoney
   Scenario: Successful login and Transfer Money with Testinium 1 Recevier
     When Open Catchylabs For Login

@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/edit/editAccountName.feature", // Feature dosyalarının doğru klasör yolu
         glue = {"stepDefinitions", "hooks"},      // Step Definition'ların bulunduğu paketler
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true
+        monochrome = true,
+        tags = " @TrueEdit or @FalseEdit"
 )
 public class EditRunner {
 }

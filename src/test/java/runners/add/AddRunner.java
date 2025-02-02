@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/add/addMoneyScenarios.feature", // Feature dosyalarının doğru klasör yolu
         glue = {"stepDefinitions", "hooks"},      // Step Definition'ların bulunduğu paketler
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true
+        monochrome = true,
+        tags = " @TrueAddMoney or @FalseAddMoney"
 )
 public class AddRunner {
 }

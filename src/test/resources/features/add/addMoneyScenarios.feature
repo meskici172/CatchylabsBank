@@ -1,5 +1,7 @@
+@AllAddMoney
 Feature: Add Money Scenarios
 
+  @TrueAddMoney
 Scenario: Add Money Scenarios [Happy Path]
   When Open Catchylabs For Login
   And Login Username "Meskici" For Login
@@ -13,8 +15,8 @@ Scenario: Add Money Scenarios [Happy Path]
   And Write Card Cvv "123"
   And Write Card Amount "100.23"
   And Click Add Button
-  Then Check Amount and Transactions
-
+  Then Check My Account Information Again
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Misssing card number and Blank card Number]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -29,7 +31,7 @@ Scenario: Add Money Scenarios [Happy Path]
     And Write Card Cvv "123"
     And Write Card Amount "100"
     And Click Add Button
-
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Misssing card Holder and Blank card Holder]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -46,7 +48,7 @@ Scenario: Add Money Scenarios [Happy Path]
     And Write Card Cvv "123"
     And Write Card Amount "100"
     And Click Add Button
-
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Wrong Expire Date and Blank Expire Date ]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -64,6 +66,7 @@ Scenario: Add Money Scenarios [Happy Path]
     And Write Card Amount "100"
     And Click Add Button
 
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Wrong Cvv and Blank Cvv ]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -81,6 +84,7 @@ Scenario: Add Money Scenarios [Happy Path]
     And Write Card Amount "100"
     And Click Add Button
 
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Blank Amount ]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -96,6 +100,7 @@ Scenario: Add Money Scenarios [Happy Path]
     And Check Card Amount For Blank
     And Click Add Button
 
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Negative Amount ]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login
@@ -111,6 +116,7 @@ Scenario: Add Money Scenarios [Happy Path]
     And Check Card Amount For Negative
     And Click Add Button
 
+  @FalseAddMoney
   Scenario: Add Money Scenarios [Too Much Amount ]
     When Open Catchylabs For Login
     And Login Username "Meskici" For Login

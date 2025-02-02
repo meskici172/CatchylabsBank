@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         }, // Feature dosyalarının doğru klasör yolu
         glue = {"stepDefinitions", "hooks"},      // Step Definition'ların bulunduğu paketler
         plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true
+        monochrome = true,
+        tags = "@SuccsessLogin or @FailedLogin"
 )
 public class LoginRunner {
 }

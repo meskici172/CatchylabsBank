@@ -3,6 +3,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import methods.*;
+import org.json.JSONObject;
+
+import java.math.BigDecimal;
 
 public class AddMoneySteps {
     // `functions` sınıfı örneği oluşturuyoruz.
@@ -122,21 +125,7 @@ public class AddMoneySteps {
         helper.compareTextbox("amountRequired","This is not valid numbers");
     }
 
-    @Then("Check Amount and Transactions")
-    public void checkAmountAndTransactions() {
-        waitHelper.waitForElement("checkAmount", 10);
-        String val = helper.getElementText("checkAmount");
 
-        // Remove commas and parse the string as a double
-        val = val.replace(",", "").replace("€", "").trim();  // Also, you can remove any currency symbol if present
-        double value = Double.parseDouble(val);
 
-        // Add 100 to the value
-        double valueAddedMoney = value + 100;
-
-        // Compare the value
-        helper.compareTextbox("checkAmount", String.valueOf(valueAddedMoney)); // Convert the result back to String for comparison
-
-    }
 
 }

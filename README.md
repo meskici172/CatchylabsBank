@@ -50,7 +50,7 @@ Projeyi çalıştırmak için aşağıdaki yazılımların bilgisayarınızda ku
 Projeyi klonlamak için aşağıdaki komutu kullanın:
 
 ```
-git clone https://github.com//.git
+git clone https://github.com/meskici172/CatchylabsBank
 ```
 ---
 ## 🎮 **Kullanım Yönergeleri**
